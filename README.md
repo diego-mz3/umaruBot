@@ -1,0 +1,2 @@
+# BotCode
+discord bot
