@@ -197,6 +197,14 @@ async def aikorun(ctx):
     embed.set_image(url='https://cdn.discordapp.com/attachments/543258687699943424/559275843696984064/image0.jpg')
     await welBot.send_message(channel, embed=embed)
 
+@welBot.command(pass_context=True)
+async def cuffmaker(ctx):
+    channel = ctx.message.channel
+    embed = discord.Embed(
+        title = 'CUFF MAKER'
+    )
+    embed.set_image(url='https://cdn.discordapp.com/attachments/542992242709626911/574829024988233728/IMG_20190506_172510.jpg')
+    await welBot.send_message(channel, embed=embed)
 
 
 #END COMMAND LIST-------------------------------------------------------------------------------------------------------
