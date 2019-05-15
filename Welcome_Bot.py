@@ -206,7 +206,9 @@ async def cuffmaker(ctx):
     embed.set_image(url='https://cdn.discordapp.com/attachments/542992242709626911/574829024988233728/IMG_20190506_172510.jpg')
     await welBot.send_message(channel, embed=embed)
 
-
+@welBot.command()
+async def test():
+    await welBot.say('This is a test command, please disregard')
 #END COMMAND LIST-------------------------------------------------------------------------------------------------------
 
 welBot.run(T)
